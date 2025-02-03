@@ -1,0 +1,230 @@
+body {
+    font-family: "Nunito", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.logo {
+    color:rgb(255, 156, 191);
+    font-size: 17px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 40px 20px 50px;
+
+}
+
+
+ nav ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+li {
+    color:rgb(53, 16, 16);
+    text-transform: lowercase;
+}
+
+li:hover {
+    color:rgb(255, 133, 176);
+}
+
+   .active {
+    color:rgb(255, 133, 176);
+  
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.herocontent {
+     display: flex;
+     width:50%;
+    flex-direction: column;
+    background-color: rgb(255, 195, 220);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding:20px;
+    text-align: center;
+}
+
+.herocontent {
+    display: flex;
+    width:50%;
+   flex-direction: column;
+   background-color: rgb(255, 195, 220);
+   justify-content: center;
+   align-items: center;
+   color: white;
+   padding:20px;
+   text-align: center;
+}
+
+.hero {
+   display: flex;
+   flex-direction: row;
+   flex: 1;
+   width: 100%;
+}
+
+.herocontent, .heroimage {
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.heroimage img {
+   width: 100%;
+   height: auto;
+}
+
+
+.hero h1 {
+    font-size: 65px;
+    font-weight: 800;
+    margin:0;
+    line-height: 60px;
+    margin-top: 10px;
+}
+
+small {
+    font-size: 20px;
+}
+
+.hero p {
+    width:70%;
+    font-size: 20px;
+}
+
+button {
+
+    width: auto; 
+    padding: 20px 20px;
+    background-color: transparent;
+    border: 3px white solid;
+    color: white; 
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.characters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:40px;
+}
+
+.characterimages {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 5px;
+
+}
+
+.characterimages img {
+    width:100%;
+    height:auto;
+}
+
+footer {
+    background-color: #fefbf2;
+    background-image: url("images/footer.webp");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height:300px;
+    padding:20px;
+    margin: 0;
+}
+
+.worldofsanrio {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.worldofsanrio ul {
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+}
+
+.footercontainer {
+    margin:30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap:100px;
+}
+
+
+.worldofsanrio h3,
+.worldofsanrio ul {
+    margin: 0; 
+    padding: 0; }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    nav li  {display: none; }
+
+nav {
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-left: 40px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column-reverse;
+    width:100%;
+}
+
+.herocontent {
+    width:100%;
+}
+
+.herocontent, .heroimage {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .logo {
+    font-size:25px;
+ }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

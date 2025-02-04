@@ -73,6 +73,10 @@ nav {
 li {
     color:rgb(53, 16, 16);
     text-transform: lowercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
 }
 
 li:hover {

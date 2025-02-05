@@ -170,11 +170,11 @@ button {
 .characterimages {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 5px;
+    gap: 10px;
 }
 
 .characterimages img {
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
@@ -260,9 +260,10 @@ width:40%;
 }
 
 .justforyou {
-    columns: 4;
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+        align-items: center;
     margin:40px;
     padding:20px;
 }

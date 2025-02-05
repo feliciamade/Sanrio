@@ -3,6 +3,7 @@ body {
     font-family: "Poppins", serif;
     margin: 0;
     padding: 0;
+    cursor: url('images/icons8-hello-kitty-40.svg') 10 10, auto;
 }
 
 html, body {
@@ -12,7 +13,7 @@ html, body {
 
 /* Logo Styles */
 .logo {
-    color: rgb(147, 206, 255);
+    color:rgb(254, 170, 205);
     font-size: 17px;
 }
 
@@ -28,7 +29,8 @@ html, body {
 .topnav {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(255, 156, 191, 0.146);
+    align-items: center;
+    background-color: white;
     height: 40px;
     text-transform: lowercase;
 }
@@ -49,11 +51,6 @@ html, body {
 .topnav svg {
     width: 20px;
     height: 20px;
-}
-
-ul.right svg {
-    width: 17px;
-    height: 17px;
 }
 
 /* Navigation Styles */
@@ -83,16 +80,19 @@ nav li {
 }
 
  li:hover {
-    color: rgb(126, 196, 253);
+    color: rgb(255, 174, 205);
+    cursor: url('images/icons8-hello-kitty-40.svg') 10 10, auto;
 }
 
 .active {
-    color:rgb(147, 206, 255);
+    color:rgb(255, 174, 205);
 }
+
 
 a {
     text-decoration: none;
     color: inherit;
+    cursor: url('images/icons8-hello-kitty-40.svg') 10 10, auto;
 }
 
 /* Hero Section */
@@ -107,7 +107,7 @@ a {
     display: flex;
     width: 50%;
     flex-direction: column;
-    background-color: rgb(253, 215, 231);
+    background-color: rgb(255, 195, 220);
     justify-content: center;
     align-items: center;
     color: white;
@@ -145,15 +145,17 @@ small {
 }
 
 /* Button Styles */
+
 button {
     width: auto;
-    padding: 20px;
+    padding: 20px 35px 20px 35px;
     background-color: transparent;
     border: 3px white solid;
     color: white;
     border-radius: 30px;
     cursor: pointer;
     font-weight: 500;
+    font-size: 16px;
 }
 
 /* Characters Section */
@@ -162,6 +164,7 @@ button {
     flex-direction: column;
     align-items: center;
     margin: 40px;
+    padding:20px;
 }
 
 .characterimages {
@@ -210,6 +213,81 @@ footer {
 .worldofsanrio ul {
     margin: 0;
     padding: 0;
+}
+
+
+.signup-container {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:50px;
+    background-color: rgb(137, 211, 232);
+    color:white;
+   
+}
+
+.signup-container h3 {
+width:40%;
+}
+
+.signup-form {
+    display:flex;
+    align-items: center;
+    
+}
+
+.signup-form button {
+    border-radius: 0px;
+    background-color: rgb(19, 23, 23);
+    padding:14px;
+    border:none;
+
+}
+
+.signup-form input {
+    padding:14px 80px 14px 14px;
+    border:none;
+}
+
+.input-container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+}
+
+.justforyou {
+    columns: 4;
+    display: flex;
+    align-items: center;
+    margin:40px;
+    padding:20px;
+}
+
+.product {
+display:flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.product img {
+    width:90%;
+    height:auto;
+}
+
+.product p {
+    margin:0;
+    width:60%;
+    font-size: 14px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 14px;
 }
 
 /* Media Queries */

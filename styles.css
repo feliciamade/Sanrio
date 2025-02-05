@@ -3,7 +3,6 @@ body {
     font-family: "Poppins", serif;
     margin: 0;
     padding: 0;
-    cursor: url('images/icons8-hello-kitty-40.svg') 10 10, auto;
 }
 
 html, body {
@@ -82,7 +81,6 @@ nav li {
 
  li:hover {
     color: rgb(255, 174, 205);
-    cursor: url('images/icons8-hello-kitty-40.svg') 10 10, auto;
 }
 
 .active {
@@ -93,7 +91,6 @@ nav li {
 a {
     text-decoration: none;
     color: inherit;
-    cursor: url('images/icons8-hello-kitty-40.svg') 10 10, auto;
 }
 
 /* Hero Section */

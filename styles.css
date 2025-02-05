@@ -12,7 +12,7 @@ html, body {
 
 /* Logo Styles */
 .logo {
-    color: rgb(255, 156, 191);
+    color: rgb(147, 206, 255);
     font-size: 17px;
 }
 
@@ -82,12 +82,12 @@ nav li {
     gap: 5px;
 }
 
-nav li:hover {
-    color: rgb(255, 133, 176);
+ li:hover {
+    color: rgb(126, 196, 253);
 }
 
 .active {
-    color: rgb(255, 133, 176);
+    color:rgb(147, 206, 255);
 }
 
 a {
@@ -107,7 +107,7 @@ a {
     display: flex;
     width: 50%;
     flex-direction: column;
-    background-color: rgb(255, 195, 220);
+    background-color: rgb(253, 215, 231);
     justify-content: center;
     align-items: center;
     color: white;
@@ -244,7 +244,7 @@ footer {
     .hero {
         display: flex;
         align-items: center;
-        flex-direction: column-reverse;
+        flex-direction: column;
         width: 100%;
     }
 

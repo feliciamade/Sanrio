@@ -3,7 +3,7 @@
 
 # 🌱 Redesign of the Sanrio Website
 
-This project brings a cute, fun, and playful Kawaii style to the Sanrio website. It includes adorable visuals, animations, and a user-friendly design that showcases Sanrio characters like Hello Kitty and My Melody.
+This project brings a cute, fun, and playful Kawaii style to the Sanrio website. It includes adorable visuals and a user-friendly design that showcases Sanrio characters like Hello Kitty and My Melody.
 
 [Sanrio](https://feliciamade.github.io/sanrio/)
 

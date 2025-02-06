@@ -1,4 +1,4 @@
-<div style="width: 60%; margin: auto;">
+<div style="width: 80%; margin: auto;">
 
 </div>
 

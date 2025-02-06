@@ -5,7 +5,7 @@
 
 This project brings a cute, fun, and playful Kawaii style to the Sanrio website. It includes adorable visuals and a user-friendly design that showcases Sanrio characters like Hello Kitty and My Melody.
 
-[Sanrio](https://feliciamade.github.io/sanrio/)
+[Sanrio]([https://feliciamade.github.io/sanrio/](https://feliciamade.github.io/Sanrio/)
 
 ## Features
 

@@ -1,5 +1,7 @@
 <div style="width: 60%; margin: auto;">
 
+</div>
+
 # 🌱 Redesign of the Sanrio Website
 
 This project brings a cute, fun, and playful Kawaii style to the Sanrio website. It includes adorable visuals, animations, and a user-friendly design that showcases Sanrio characters like Hello Kitty and My Melody.
@@ -23,6 +25,4 @@ This project brings a cute, fun, and playful Kawaii style to the Sanrio website.
 
 ![Screenshot 2025-02-05 102512](https://github.com/user-attachments/assets/5a51c9b4-fadf-43ff-9359-546efc3f54d6)
 
-
-</div>
 

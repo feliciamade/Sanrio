@@ -1,4 +1,5 @@
 <div style="width: 80%; margin: auto;">
+Your content here
 </div>
 
 # 🌱 Redesign of the Sanrio Website

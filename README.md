@@ -18,7 +18,8 @@ This project brings a cute, fun, and playful Kawaii style to the Sanrio website.
 ## Technologies Used
 
 - HTML5 & CSS3
-![127 0 0 1_5501_index html (2)](https://github.com/user-attachments/assets/ff6050d5-d6d5-408f-afc1-4314efd8abfa)
+![127 0 0 1_5501_index html (4)](https://github.com/user-attachments/assets/733a6984-982c-46bb-a51c-ed30989ca567)
+
 
 
 

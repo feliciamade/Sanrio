@@ -1,0 +1,345 @@
+/* Global Styles */
+body {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Logo Styles */
+
+.logo h1 {
+    font-weight: 800;
+    font-size: 50px;
+    color:rgb(254, 170, 205);
+    margin: 0px;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 80px;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    color: rgb(53, 59, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+ li:hover {
+    color: rgb(255, 174, 205);
+}
+
+.active {
+    color:rgb(255, 174, 205);
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+}
+
+.herocontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 195, 220);
+    color: white;
+    width: 50%;
+    padding: 20px;
+   
+}
+
+.heroimage {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.heroimage img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    font-size: 80px;
+    font-weight: 800;
+    margin: 0;
+    line-height:80px;
+    margin-top: 10px;
+}
+
+.hero p {
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+small {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* Button Styles */
+
+.hero button {
+    width: auto;
+    padding: 20px 35px 20px 35px;
+    background-color:white;
+    border: none;
+    color:rgb(175, 210, 255);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: lowercase;
+}
+
+.hero .two {
+    width: auto;
+    padding: 20px 35px 20px 35px;
+    background-color:white;
+    border: none;
+    color:rgb(255, 173, 203);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* Characters Section */
+.characters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    padding:20px;
+}
+
+.characterimages {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.characterimages img {
+    width: 90%;
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #fefbf2;
+    background-image: url("images/footer.webp");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 300px;
+    padding: 20px;
+    margin: 0;
+}
+
+.worldofsanrio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.worldofsanrio ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.footercontainer {
+    margin: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+}
+
+.worldofsanrio h3,
+.worldofsanrio ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.signup-container {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:50px;
+    background-color: rgb(137, 211, 232);
+    color:white;
+   
+}
+
+.signup-container h3 {
+width:40%;
+}
+
+.signup-form {
+    display:flex;
+    align-items: center;
+    
+}
+
+.signup-form button {
+    border-radius: 0px;
+    background-color: rgb(19, 23, 23);
+    padding:14px;
+    color:white;
+    border:none;
+
+}
+
+.signup-form input {
+    padding:14px 80px 14px 14px;
+    border:none;
+}
+
+.input-container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+}
+
+.justforyou {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    align-items: center;
+    width: fit-content; 
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+.product {
+
+line-height: 22px;
+position: relative; 
+display: flex;
+flex-direction: column;
+gap:5px;
+border-radius: 20px;
+padding:20px;
+background-color: rgb(242, 247, 255);
+
+}
+
+.product img {
+    width:100%;
+    height:auto;
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin:0;
+    width:80%;
+    font-size: 14px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.product i {
+    position: absolute;
+    right:  25px;
+    margin-right: 10px;
+    bottom:120px;
+    font-size: 20px;
+}
+
+/* Media Queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: white;
+        text-align: center;
+    }
+
+    nav li {
+        display: none;
+    }
+
+    .topnav {
+        display: none;
+    }
+
+    nav {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        margin-left: 40px;
+        font-size: 20px;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .herocontent, .heroimage {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .herocontent {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .characterimages {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+}
